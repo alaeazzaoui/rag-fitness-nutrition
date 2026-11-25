@@ -221,3 +221,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Projet
+index/
+*.faiss
+models/
+.env
+.ipynb_checkpoints/
