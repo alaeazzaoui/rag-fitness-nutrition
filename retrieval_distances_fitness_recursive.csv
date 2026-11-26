@@ -1,0 +1,61 @@
+﻿id,category,expected,question,top1,mean_topk
+Q01,answer_present,answer,Pourquoi les acides aminés après un entraînement de résistance sont-ils importants pour la synthèse des protéines musculaires ?,0.4027106761932373,0.43198583126068113
+Q02,answer_present,answer,Quelle quantité quotidienne de protéines est associée aux gains de masse musculaire dans les études citées ?,0.2855309247970581,0.3922202467918396
+Q03,answer_present,answer,La supplémentation en protéines peut-elle améliorer les gains de force lorsqu'elle est associée à un entraînement de résistance ?,0.3450184464454651,0.35009845495224
+Q04,answer_present,answer,Pourquoi la qualité des protéines alimentaires est-elle importante pour la synthèse des protéines musculaires ?,0.3991072177886963,0.462099027633667
+Q05,answer_present,answer,Quelle quantité de protéines par repas est recommandée pour favoriser la synthèse des protéines musculaires ?,0.39512574672698975,0.45666137933731077
+Q06,answer_present,answer,Quels bénéfices la consommation de protéines après un exercice de résistance peut-elle apporter à la récupération ?,0.41282451152801514,0.4258832216262817
+Q07,answer_present,answer,Qu'est-ce que l'hypertrophie musculaire ?,0.5046271085739136,0.5362516880035401
+Q08,answer_present,answer,Quel est le rôle de l'entraînement en résistance dans le développement de la masse musculaire ?,0.3304785490036011,0.36306331157684324
+Q09,answer_present,answer,Quels facteurs nutritionnels influencent les adaptations musculaires à l'entraînement ?,0.3941618800163269,0.41454529762268066
+Q10,answer_present,answer,Qu'est-ce que la créatine et quel est son intérêt pour la performance sportive ?,0.44529253244400024,0.45799410343170166
+Q11,answer_present,answer,Quels effets la créatine peut-elle avoir sur la force et les performances lors d'efforts intenses ?,0.49834316968917847,0.5069416522979736
+Q12,answer_present,answer,Quel est le rôle de la bêta-alanine dans l'exercice physique ?,0.39749056100845337,0.42302364110946655
+Q13,answer_present,answer,Comment la caféine peut-elle influencer les performances sportives ?,0.5525937080383301,0.5759929656982422
+Q14,answer_present,answer,Pourquoi les glucides sont-ils importants dans l'alimentation des sportifs ?,0.5461722612380981,0.571478521823883
+Q15,answer_present,answer,Que signifie le concept de disponibilité énergétique dans le contexte du sport ?,0.5354438424110413,0.5695332884788513
+Q16,answer_present,answer,Qu'est-ce que le syndrome de déficit énergétique relatif dans le sport (RED-S) ?,0.4271247386932373,0.4648417949676514
+Q17,answer_present,answer,Quels risques un apport énergétique insuffisant peut-il présenter pour les sportifs ?,0.47552090883255005,0.5523910760879517
+Q18,answer_present,answer,Pourquoi la récupération est-elle importante dans un programme d'entraînement en résistance ?,0.4967080354690552,0.5119595050811767
+Q19,answer_present,answer,Quels facteurs peuvent influencer les besoins nutritionnels d'un sportif ?,0.380069375038147,0.3914972424507141
+Q20,answer_present,answer,Quels éléments faut-il prendre en compte pour optimiser les adaptations à l'entraînement ?,0.5159589052200317,0.5565222859382629
+Q21,answer_absent,refuse,Quel est le meilleur complément alimentaire pour gagner exactement 5 kg de muscle en 30 jours ?,0.4046628475189209,0.47259706258773804
+Q22,answer_absent,refuse,Quelle marque de whey offre le meilleur rapport qualité-prix au Maroc en novembre 2026 ?,0.6370679140090942,0.6509160757064819
+Q23,answer_absent,refuse,Quel restaurant de Rabat propose le repas le plus riche en protéines ?,0.4607093334197998,0.499155604839325
+Q24,answer_absent,refuse,Combien de calories exactes dois-je consommer chaque jour selon mon poids et mon âge ?,0.5384856462478638,0.5597879767417908
+Q25,answer_absent,refuse,Quel programme personnalisé garantit une perte de 10 kg en six semaines ?,0.5029328465461731,0.5404542565345765
+Q26,answer_absent,refuse,Quelle salle de sport de Casablanca possède les équipements les plus récents ?,0.6616168022155762,0.6796216487884521
+Q27,answer_absent,refuse,Quel est le prix actuel de la créatine dans les pharmacies marocaines ?,0.45636898279190063,0.4708984613418579
+Q28,answer_absent,refuse,Quelle application mobile est la plus précise pour mesurer directement la masse musculaire ?,0.6040041446685791,0.6170579671859742
+Q29,answer_absent,refuse,Quel athlète détient actuellement le record mondial de développé couché dans toutes les catégories ?,0.5589572191238403,0.5640682339668274
+Q30,answer_absent,refuse,Quel complément permet de remplacer complètement le sommeil après une séance intense ?,0.49374496936798096,0.5442155122756958
+Q31,answer_absent,refuse,Quelle est la composition exacte du dernier produit protéiné lancé par une marque en 2026 ?,0.43315887451171875,0.5047035932540893
+Q32,answer_absent,refuse,Quel régime garantit une prise de masse sans aucune augmentation de masse grasse ?,0.5477629899978638,0.5617859601974488
+Q33,answer_absent,refuse,Quel est le diagnostic médical d'une personne qui ressent des douleurs musculaires après l'entraînement ?,0.5305894613265991,0.5456905841827393
+Q34,answer_absent,refuse,Quelle dose de supplément dois-je prendre en fonction de mes résultats d'analyses sanguines personnelles ?,0.4533575177192688,0.45920649766921995
+Q35,answer_absent,refuse,Quels sont les horaires d'ouverture aujourd'hui d'une salle de sport précise à Rabat ?,0.6470993161201477,0.6777034401893616
+Q36,ambiguous,clarify,Quelle quantité de protéines faut-il consommer ?,0.47706300020217896,0.5015959143638611
+Q37,ambiguous,clarify,Quand faut-il prendre les protéines ?,0.4781152009963989,0.5055804371833801
+Q38,ambiguous,clarify,La créatine est-elle efficace ?,0.46071892976760864,0.4898979067802429
+Q39,ambiguous,clarify,La caféine est-elle bonne pour le sport ?,0.605767011642456,0.6212247371673584
+Q40,ambiguous,clarify,Quel est le meilleur entraînement pour prendre du muscle ?,0.5106730461120605,0.5203608393669128
+Q41,ambiguous,clarify,Combien de temps faut-il récupérer après l'exercice ?,0.5570260882377625,0.5952273368835449
+Q42,ambiguous,clarify,Les compléments alimentaires sont-ils nécessaires ?,0.31309497356414795,0.41735033988952636
+Q43,ambiguous,clarify,Les glucides font-ils prendre du poids ?,0.5391777753829956,0.6019626736640931
+Q44,ambiguous,clarify,Comment améliorer ses performances sportives ?,0.5219317674636841,0.5484129548072815
+Q45,ambiguous,clarify,Quels sont les risques d'un régime alimentaire restrictif ?,0.5209470391273499,0.580824077129364
+Q46,multi_passage,answer,Comment l'apport quotidien en protéines et leur répartition au cours de la journée contribuent-ils ensemble à l'hypertrophie musculaire ?,0.403694212436676,0.4762640595436096
+Q47,multi_passage,answer,"Comment associer l'entraînement en résistance, l'apport énergétique et les protéines pour favoriser la prise de masse musculaire ?",0.396124005317688,0.4157886505126953
+Q48,multi_passage,answer,"Que disent les documents sur les effets de la créatine sur la force, la performance et l'adaptation à l'entraînement ?",0.47299981117248535,0.48232378959655764
+Q49,multi_passage,answer,Comment les besoins en protéines peuvent-ils varier selon le type d'activité physique et l'objectif sportif ?,0.4049946069717407,0.5002660036087037
+Q50,multi_passage,answer,"Quels liens peut-on établir entre disponibilité énergétique, santé et performance chez les sportifs ?",0.5451928377151489,0.5580070614814758
+Q51,multi_passage,answer,Comment la nutrition avant et après l'exercice peut-elle contribuer à la performance et à la récupération ?,0.3330913782119751,0.3600804924964905
+Q52,multi_passage,answer,"Comparez les rôles des protéines, des glucides et des lipides dans la nutrition sportive.",0.39979493618011475,0.4126191854476929
+Q53,multi_passage,answer,Comment la caféine et la bêta-alanine agissent-elles différemment sur la performance physique ?,0.48870426416397095,0.4962086319923401
+Q54,multi_passage,answer,Quels facteurs nutritionnels et liés à l'entraînement peuvent limiter les gains de masse musculaire ?,0.3456757068634033,0.40804314613342285
+Q55,multi_passage,answer,Comment les apports énergétiques et protéiques influencent-ils les adaptations à un programme de résistance en période de perte de poids ?,0.5428615808486938,0.5587509274482727
+Q56,multi_passage,answer,Quels éléments permettent de distinguer une stratégie nutritionnelle visant la performance d'une stratégie visant l'hypertrophie ?,0.4307873845100403,0.45109938383102416
+Q57,multi_passage,answer,Quels risques peuvent apparaître lorsque les apports énergétiques ne couvrent pas les dépenses liées à l'entraînement ?,0.47229379415512085,0.5496368288993836
+Q58,multi_passage,answer,"Comment la quantité totale de protéines, la qualité des sources et la dose par repas interviennent-elles dans la synthèse protéique musculaire ?",0.3208245635032654,0.41629300117492674
+Q59,multi_passage,answer,En quoi la récupération et la nutrition contribuent-elles conjointement aux adaptations après un entraînement intense ?,0.3582304120063782,0.368651807308197
+Q60,multi_passage,answer,"À partir des documents, quelles recommandations générales peut-on formuler pour soutenir la performance tout en préservant la santé du sportif ?",0.43428361415863037,0.5028812885284424
