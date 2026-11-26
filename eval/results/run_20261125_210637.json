@@ -1,0 +1,103 @@
+{
+    "config": {
+        "question": "Quels risques une consommation excessive de protéines peut-elle présenter pour les reins et le foie ?",
+        "strategy": "recursive",
+        "top_k": 5,
+        "max_new_tokens": 200,
+        "entailment_threshold": 0.85,
+        "contradiction_threshold": 0.8,
+        "min_margin": 0.15
+    },
+    "results": [
+        {
+            "model": "Qwen 0.5B",
+            "answer": "Une consommation excessive de protéines peut présenter plusieurs risques pour les reins et le foie, notamment :\n\n1. **Réchauffement des reins** : Les reins sont principalement composés de protéines, donc une consommation excessive peut entraîner une augmentation de la température corporelle, ce qui peut entraîner des problèmes de santé.\n\n2. **Dépression des niveaux de calcium et de phosphore** : Les reins nécessitent régulièrement des protéines pour maintenir leur structure et fonctionnement. Un taux élevé de protéines peut entraîner une diminution de ces éléments essentiels, ce qui peut avoir des effets néfastes sur la santé des reins.\n\n3. **Dégénérescence des cellules** : La consommation excessive de protéines peut entraîner une accumulation de graisses dans les reins, ce qui peut entraîner une dé",
+            "generation_time": 30.86,
+            "faithfulness_score": 0.0,
+            "supported": 0,
+            "unsupported": 3,
+            "contradicted": 0,
+            "total_claims": 3,
+            "claims": [
+                {
+                    "text": "Réchauffement des reins : Les reins sont principalement composés de protéines, donc une consommation excessive peut entraîner une augmentation de la température corporelle, ce qui peut entraîner des problèmes de santé.",
+                    "status": "UNSUPPORTED",
+                    "confidence": 0.0104,
+                    "evidence": null,
+                    "scores": {
+                        "entailment": 0.0104,
+                        "contradiction": 0.0004
+                    },
+                    "negation_detected": true
+                },
+                {
+                    "text": "Dépression des niveaux de calcium et de phosphore : Les reins nécessitent régulièrement des protéines pour maintenir leur structure et fonctionnement.",
+                    "status": "UNSUPPORTED",
+                    "confidence": 0.0026,
+                    "evidence": null,
+                    "scores": {
+                        "entailment": 0.0026,
+                        "contradiction": 0.001
+                    },
+                    "negation_detected": true
+                },
+                {
+                    "text": "Un taux élevé de protéines peut entraîner une diminution de ces éléments essentiels, ce qui peut avoir des effets néfastes sur la santé des reins.",
+                    "status": "UNSUPPORTED",
+                    "confidence": 0.0012,
+                    "evidence": null,
+                    "scores": {
+                        "entailment": 0.0012,
+                        "contradiction": 0.0082
+                    },
+                    "negation_detected": true
+                }
+            ]
+        },
+        {
+            "model": "Qwen 1.5B",
+            "answer": "Une consommation excessive de protéines peut présenter plusieurs risques pour les reins et le foie, notamment :\n\n1. Déclenchement de décompensation de cirrhose : Les apports excessifs de protéines peuvent favoriser le déclenchement de décompensation de cirrhose, même chez les personnes à risque.\n\n2. Insuffisance rénale aiguë : Des études ont montré que la consommation excessive de protéines peut entraîner une insuffisance rénale aiguë, surtout chez les patients atteints de cirrhose.\n\n3. Syndrome néphrotique : Dans certains cas, une consommation excessive de protéines peut conduire à un syndrome néphrotique.\n\n4. Dialyse : Il n'est pas systématiquement observé de syndrome néphrotique ou de dialyse lors d'un syndrome hépato-néphro",
+            "generation_time": 91.23,
+            "faithfulness_score": 0.0,
+            "supported": 0,
+            "unsupported": 3,
+            "contradicted": 0,
+            "total_claims": 3,
+            "claims": [
+                {
+                    "text": "Déclenchement de décompensation de cirrhose : Les apports excessifs de protéines peuvent favoriser le déclenchement de décompensation de cirrhose, même chez les personnes à risque.",
+                    "status": "UNSUPPORTED",
+                    "confidence": 0.9873,
+                    "evidence": null,
+                    "scores": {
+                        "entailment": 0.9873,
+                        "contradiction": 0.0021
+                    },
+                    "negation_detected": true
+                },
+                {
+                    "text": "Insuffisance rénale aiguë : Des études ont montré que la consommation excessive de protéines peut entraîner une insuffisance rénale aiguë, surtout chez les patients atteints de cirrhose.",
+                    "status": "UNSUPPORTED",
+                    "confidence": 0.9985,
+                    "evidence": null,
+                    "scores": {
+                        "entailment": 0.9985,
+                        "contradiction": 0.0005
+                    },
+                    "negation_detected": true
+                },
+                {
+                    "text": "Syndrome néphrotique : Dans certains cas, une consommation excessive de protéines peut conduire à un syndrome néphrotique.",
+                    "status": "UNSUPPORTED",
+                    "confidence": 0.998,
+                    "evidence": null,
+                    "scores": {
+                        "entailment": 0.998,
+                        "contradiction": 0.0002
+                    },
+                    "negation_detected": true
+                }
+            ]
+        }
+    ]
+}

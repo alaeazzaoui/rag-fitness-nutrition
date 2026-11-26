@@ -1,0 +1,312 @@
+{
+  "dataset_name": "RAG Fitness & Nutrition - Evaluation",
+  "total_questions": 60,
+  "categories": {
+    "answer_present": 20,
+    "answer_absent": 15,
+    "ambiguous": 10,
+    "multi_passage": 15
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "category": "answer_present",
+      "question": "Quel rôle les protéines jouent-elles dans la croissance musculaire ?"
+    },
+    {
+      "id": "Q02",
+      "category": "answer_present",
+      "question": "Quelle quantité quotidienne de protéines est associée aux gains de masse musculaire dans les études citées ?"
+    },
+    {
+      "id": "Q03",
+      "category": "answer_present",
+      "question": "La supplémentation en protéines peut-elle améliorer les gains de force lorsqu'elle est associée à un entraînement de résistance ?"
+    },
+    {
+      "id": "Q04",
+      "category": "answer_present",
+      "question": "Pourquoi la qualité des protéines alimentaires est-elle importante pour la synthèse des protéines musculaires ?"
+    },
+    {
+      "id": "Q05",
+      "category": "answer_present",
+      "question": "Le moment de consommation des protéines est-il plus important que l'apport protéique quotidien total ?"
+    },
+    {
+      "id": "Q06",
+      "category": "answer_present",
+      "question": "Quels bénéfices la consommation de protéines après un exercice de résistance peut-elle apporter à la récupération ?"
+    },
+    {
+      "id": "Q07",
+      "category": "answer_present",
+      "question": "Qu'est-ce que l'hypertrophie musculaire ?"
+    },
+    {
+      "id": "Q08",
+      "category": "answer_present",
+      "question": "Quel est le rôle de l'entraînement en résistance dans le développement de la masse musculaire ?"
+    },
+    {
+      "id": "Q09",
+      "category": "answer_present",
+      "question": "Quels facteurs nutritionnels influencent les adaptations musculaires à l'entraînement ?"
+    },
+    {
+      "id": "Q10",
+      "category": "answer_present",
+      "question": "Qu'est-ce que la créatine et quel est son intérêt pour la performance sportive ?"
+    },
+    {
+      "id": "Q11",
+      "category": "answer_present",
+      "question": "Quels effets la créatine peut-elle avoir sur la force et les performances lors d'efforts intenses ?"
+    },
+    {
+      "id": "Q12",
+      "category": "answer_present",
+      "question": "Quel est le rôle de la bêta-alanine dans l'exercice physique ?"
+    },
+    {
+      "id": "Q13",
+      "category": "answer_present",
+      "question": "Comment la caféine peut-elle influencer les performances sportives ?"
+    },
+    {
+      "id": "Q14",
+      "category": "answer_present",
+      "question": "Pourquoi les glucides sont-ils importants dans l'alimentation des sportifs ?"
+    },
+    {
+      "id": "Q15",
+      "category": "answer_present",
+      "question": "Que signifie le concept de disponibilité énergétique dans le contexte du sport ?"
+    },
+    {
+      "id": "Q16",
+      "category": "answer_present",
+      "question": "Qu'est-ce que le syndrome de déficit énergétique relatif dans le sport (RED-S) ?"
+    },
+    {
+      "id": "Q17",
+      "category": "answer_present",
+      "question": "Quels risques un apport énergétique insuffisant peut-il présenter pour les sportifs ?"
+    },
+    {
+      "id": "Q18",
+      "category": "answer_present",
+      "question": "Pourquoi la récupération est-elle importante dans un programme d'entraînement en résistance ?"
+    },
+    {
+      "id": "Q19",
+      "category": "answer_present",
+      "question": "Quels facteurs peuvent influencer les besoins nutritionnels d'un sportif ?"
+    },
+    {
+      "id": "Q20",
+      "category": "answer_present",
+      "question": "Quels éléments faut-il prendre en compte pour optimiser les adaptations à l'entraînement ?"
+    },
+    {
+      "id": "Q21",
+      "category": "answer_absent",
+      "question": "Quel est le meilleur complément alimentaire pour gagner exactement 5 kg de muscle en 30 jours ?"
+    },
+    {
+      "id": "Q22",
+      "category": "answer_absent",
+      "question": "Quelle marque de whey offre le meilleur rapport qualité-prix au Maroc en novembre 2026 ?"
+    },
+    {
+      "id": "Q23",
+      "category": "answer_absent",
+      "question": "Quel restaurant de Rabat propose le repas le plus riche en protéines ?"
+    },
+    {
+      "id": "Q24",
+      "category": "answer_absent",
+      "question": "Combien de calories exactes dois-je consommer chaque jour selon mon poids et mon âge ?"
+    },
+    {
+      "id": "Q25",
+      "category": "answer_absent",
+      "question": "Quel programme personnalisé garantit une perte de 10 kg en six semaines ?"
+    },
+    {
+      "id": "Q26",
+      "category": "answer_absent",
+      "question": "Quelle salle de sport de Casablanca possède les équipements les plus récents ?"
+    },
+    {
+      "id": "Q27",
+      "category": "answer_absent",
+      "question": "Quel est le prix actuel de la créatine dans les pharmacies marocaines ?"
+    },
+    {
+      "id": "Q28",
+      "category": "answer_absent",
+      "question": "Quelle application mobile est la plus précise pour mesurer directement la masse musculaire ?"
+    },
+    {
+      "id": "Q29",
+      "category": "answer_absent",
+      "question": "Quel athlète détient actuellement le record mondial de développé couché dans toutes les catégories ?"
+    },
+    {
+      "id": "Q30",
+      "category": "answer_absent",
+      "question": "Quel complément permet de remplacer complètement le sommeil après une séance intense ?"
+    },
+    {
+      "id": "Q31",
+      "category": "answer_absent",
+      "question": "Quelle est la composition exacte du dernier produit protéiné lancé par une marque en 2026 ?"
+    },
+    {
+      "id": "Q32",
+      "category": "answer_absent",
+      "question": "Quel régime garantit une prise de masse sans aucune augmentation de masse grasse ?"
+    },
+    {
+      "id": "Q33",
+      "category": "answer_absent",
+      "question": "Quel est le diagnostic médical d'une personne qui ressent des douleurs musculaires après l'entraînement ?"
+    },
+    {
+      "id": "Q34",
+      "category": "answer_absent",
+      "question": "Quelle dose de supplément dois-je prendre en fonction de mes résultats d'analyses sanguines personnelles ?"
+    },
+    {
+      "id": "Q35",
+      "category": "answer_absent",
+      "question": "Quels sont les horaires d'ouverture aujourd'hui d'une salle de sport précise à Rabat ?"
+    },
+    {
+      "id": "Q36",
+      "category": "ambiguous",
+      "question": "Quelle quantité de protéines faut-il consommer ?"
+    },
+    {
+      "id": "Q37",
+      "category": "ambiguous",
+      "question": "Quand faut-il prendre les protéines ?"
+    },
+    {
+      "id": "Q38",
+      "category": "ambiguous",
+      "question": "La créatine est-elle efficace ?"
+    },
+    {
+      "id": "Q39",
+      "category": "ambiguous",
+      "question": "La caféine est-elle bonne pour le sport ?"
+    },
+    {
+      "id": "Q40",
+      "category": "ambiguous",
+      "question": "Quel est le meilleur entraînement pour prendre du muscle ?"
+    },
+    {
+      "id": "Q41",
+      "category": "ambiguous",
+      "question": "Combien de temps faut-il récupérer après l'exercice ?"
+    },
+    {
+      "id": "Q42",
+      "category": "ambiguous",
+      "question": "Les compléments alimentaires sont-ils nécessaires ?"
+    },
+    {
+      "id": "Q43",
+      "category": "ambiguous",
+      "question": "Les glucides font-ils prendre du poids ?"
+    },
+    {
+      "id": "Q44",
+      "category": "ambiguous",
+      "question": "Comment améliorer ses performances sportives ?"
+    },
+    {
+      "id": "Q45",
+      "category": "ambiguous",
+      "question": "Quels sont les risques d'un régime alimentaire restrictif ?"
+    },
+    {
+      "id": "Q46",
+      "category": "multi_passage",
+      "question": "Comment l'apport quotidien en protéines et leur répartition au cours de la journée contribuent-ils ensemble à l'hypertrophie musculaire ?"
+    },
+    {
+      "id": "Q47",
+      "category": "multi_passage",
+      "question": "Comment associer l'entraînement en résistance, l'apport énergétique et les protéines pour favoriser la prise de masse musculaire ?"
+    },
+    {
+      "id": "Q48",
+      "category": "multi_passage",
+      "question": "Que disent les documents sur les effets de la créatine sur la force, la performance et l'adaptation à l'entraînement ?"
+    },
+    {
+      "id": "Q49",
+      "category": "multi_passage",
+      "question": "Comment les besoins en protéines peuvent-ils varier selon le type d'activité physique et l'objectif sportif ?"
+    },
+    {
+      "id": "Q50",
+      "category": "multi_passage",
+      "question": "Quels liens peut-on établir entre disponibilité énergétique, santé et performance chez les sportifs ?"
+    },
+    {
+      "id": "Q51",
+      "category": "multi_passage",
+      "question": "Comment la nutrition avant et après l'exercice peut-elle contribuer à la performance et à la récupération ?"
+    },
+    {
+      "id": "Q52",
+      "category": "multi_passage",
+      "question": "Comparez les rôles des protéines, des glucides et des lipides dans la nutrition sportive."
+    },
+    {
+      "id": "Q53",
+      "category": "multi_passage",
+      "question": "Comment la caféine et la bêta-alanine agissent-elles différemment sur la performance physique ?"
+    },
+    {
+      "id": "Q54",
+      "category": "multi_passage",
+      "question": "Quels facteurs nutritionnels et liés à l'entraînement peuvent limiter les gains de masse musculaire ?"
+    },
+    {
+      "id": "Q55",
+      "category": "multi_passage",
+      "question": "Comment les apports énergétiques et protéiques influencent-ils les adaptations à un programme de résistance en période de perte de poids ?"
+    },
+    {
+      "id": "Q56",
+      "category": "multi_passage",
+      "question": "Quels éléments permettent de distinguer une stratégie nutritionnelle visant la performance d'une stratégie visant l'hypertrophie ?"
+    },
+    {
+      "id": "Q57",
+      "category": "multi_passage",
+      "question": "Quels risques peuvent apparaître lorsque les apports énergétiques ne couvrent pas les dépenses liées à l'entraînement ?"
+    },
+    {
+      "id": "Q58",
+      "category": "multi_passage",
+      "question": "Comment la quantité totale de protéines, la qualité des sources et la dose par repas interviennent-elles dans la synthèse protéique musculaire ?"
+    },
+    {
+      "id": "Q59",
+      "category": "multi_passage",
+      "question": "En quoi la récupération et la nutrition contribuent-elles conjointement aux adaptations après un entraînement intense ?"
+    },
+    {
+      "id": "Q60",
+      "category": "multi_passage",
+      "question": "À partir des documents, quelles recommandations générales peut-on formuler pour soutenir la performance tout en préservant la santé du sportif ?"
+    }
+  ]
+}

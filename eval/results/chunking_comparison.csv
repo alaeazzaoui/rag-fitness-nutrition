@@ -1,0 +1,4 @@
+Strategy,Total Chunks,Average Length,Min Length,Max Length,Total Characters,Unique Documents
+fixed,4975,476.63,1,500,2371259,20
+recursive,4856,454.62,10,500,2207635,20
+semantic,5971,321.51,2,500,1919736,20

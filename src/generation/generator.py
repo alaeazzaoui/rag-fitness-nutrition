@@ -552,3 +552,51 @@ if __name__ == "__main__":
             print(
                 "\nNo model produced a valid result."
             )
+
+def answer_question(question, tokenizer, model):
+
+    # 1. Récupérer les passages pertinents
+    passages = retrieve_context(
+        question,
+        strategy=STRATEGY,
+        top_k=TOP_K
+    )
+
+    if not passages:
+        return {
+            "answer": "Je ne dispose pas d'informations suffisantes dans les documents.",
+            "sources": [],
+            "report": None,
+            "generation_time": 0
+        }
+
+    # 2. Générer la réponse avec Qwen
+    answer, generation_time = generate_answer(
+        question,
+        passages,
+        tokenizer,
+        model
+    )
+
+    # 3. Détecter les hallucinations
+    report = detect_hallucinations(
+        answer,
+        passages
+    )
+
+    # 4. Préparer les sources
+    sources = [
+        {
+            "source": passage["source"],
+            "page": passage["page"],
+            "content": passage["content"]
+        }
+        for passage in passages
+    ]
+
+    return {
+        "answer": answer,
+        "sources": sources,
+        "report": report,
+        "generation_time": round(generation_time, 2)
+    }

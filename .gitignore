@@ -228,3 +228,9 @@ index/
 models/
 .env
 .ipynb_checkpoints/
+
+__pycache__/
+*.pyc
+chroma_db_nb/
+.ipynb_checkpoints/
+.streamlit/secrets.toml
