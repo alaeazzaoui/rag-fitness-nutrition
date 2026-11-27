@@ -1,0 +1,17 @@
+model,strategy,category,questions,taux_de_refus,fidélité
+Qwen 0.5B,recursive,ambiguous,10,0.4,10.0
+Qwen 0.5B,recursive,answer_absent,15,0.53,7.14
+Qwen 0.5B,recursive,answer_present,20,0.05,15.77
+Qwen 0.5B,recursive,multi_passage,15,0.0,5.75
+Qwen 1.5B,fixed,ambiguous,10,0.0,16.67
+Qwen 1.5B,fixed,answer_absent,15,0.67,9.17
+Qwen 1.5B,fixed,answer_present,20,0.0,26.58
+Qwen 1.5B,fixed,multi_passage,15,0.0,6.3
+Qwen 1.5B,recursive,ambiguous,10,0.0,9.5
+Qwen 1.5B,recursive,answer_absent,15,0.53,5.61
+Qwen 1.5B,recursive,answer_present,20,0.0,18.96
+Qwen 1.5B,recursive,multi_passage,15,0.0,8.48
+Qwen 1.5B,semantic,ambiguous,10,0.0,13.5
+Qwen 1.5B,semantic,answer_absent,15,0.67,15.0
+Qwen 1.5B,semantic,answer_present,20,0.0,17.5
+Qwen 1.5B,semantic,multi_passage,15,0.0,20.0

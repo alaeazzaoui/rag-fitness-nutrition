@@ -1,0 +1,5 @@
+model,strategy,sans_regle,avec_regle
+Qwen 0.5B,recursive,10.4,10.4
+Qwen 1.5B,fixed,16.8,14.9
+Qwen 1.5B,recursive,12.3,11.4
+Qwen 1.5B,semantic,17.2,16.0
